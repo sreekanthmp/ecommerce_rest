@@ -27,7 +27,7 @@ Payload:
 
 Method: POST
 
-Endpoint: /login/
+Endpoint: /login
 
 Payload:
 { "username": "USERNAME", "password": "PASSWORD" }
@@ -45,7 +45,7 @@ Payload:
 
 Method: POST
 
-Endpoint: /orderitem
+Endpoint: /myorder
 
 Payload:
 {"product":"PRODUCT","address":"ADDRESS"}
@@ -54,10 +54,21 @@ Payload:
 
 Method: POST
 
-Endpoint: /cartitem
+Endpoint: /mycart
 
 Payload:
 {"product":"PRODUCT","count":"Count"}
+
+
+### Cartorder
+
+Method: POST
+
+Endpoint: /cartorder
+
+Payload:
+{"address":"ADDRESS"}
+
 
 
 
